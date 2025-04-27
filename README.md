@@ -40,7 +40,6 @@ This project only uses standard Python libraries, so no additional packages are 
   - `ComplexAttribute`: For complex metrics (latency quartiles)
 
 ### 2. Log Processing
-- Efficient log processing with caching
 - Pattern matching and value extraction
 - Support for different types of log formats
 
@@ -53,9 +52,10 @@ This project only uses standard Python libraries, so no additional packages are 
 - Database abstraction layer
 - Support for metadata persistence
 - Data retrieval capabilities
+- Placeholder with dummy connection string implemented for now.
 
 ### 5. User Interface
-- Interactive CLI demo application
+- Interactive CLI demo  using main file
 - Command-line argument support
 - Comprehensive error handling
 
@@ -91,6 +91,16 @@ Provides a command-line interface for interactive processing and database operat
 - `help` - Show help information
 - `exit` - Exit the program
 
+### Screenshots
+
+Running the main.py file:
+
+1. Processing Log File:
+![Image 1](./images/1.png)
+
+2. Saving to a Sample Database:
+![Image 2](./images/2.png)
+
 ### Direct Log Processing
 ```bash
 python main.py --logfile external_sample.log
@@ -123,7 +133,3 @@ class BooleanAttribute(Attribute[bool]):
     # Implement abstract methods...
     pass
 ```
-
-## Conclusion
-
-This project successfully demonstrates how Python's OOP features can be leveraged to create a modular, extensible system for log processing and metrics extraction. The design emphasizes reusability, type safety, and clear separation of concerns.

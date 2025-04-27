@@ -1,8 +1,5 @@
 """
-Python OOPs: Attributes Storage and Retrieval System
-
-This package implements a log parsing and metrics storage/retrieval system
-for high-frequency trading (HFT) environments using Python OOP principles.
+Python OOPs: Attributes Storage and Retrieval System Init file
 """
 
 from .enums import Status, CriticalityLevel

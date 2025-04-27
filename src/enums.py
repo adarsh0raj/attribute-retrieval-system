@@ -11,5 +11,5 @@ class Status(Enum):
 
 class CriticalityLevel(Enum):
     """Criticality level of an attribute."""
-    CRITICAL = auto()  # Will return ERROR on evaluation failure
-    RELAXED = auto()   # Will return WARNING on evaluation failure
+    CRITICAL = auto()  # Evaluation Failure will return ERROR
+    RELAXED = auto()   # Evaluation Failure will return WARNING
